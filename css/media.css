@@ -1,0 +1,188 @@
+/* inner-banner */
+.media_ban {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/media-banner.jpg);
+}
+.inner-heading h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 200;
+}
+/* end of inner banner  */
+/* start of main heading  */
+section.service-main-head h2 {
+    font-size: 45px;
+    text-align: center;
+    color: #629abe;
+    font-weight: 200;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+section.service-main-head p {
+    font-size: 18px;
+    color: #272727;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+}
+section.service-main-head h2 span {
+    border-bottom: 1px solid #707070;
+}
+section.service-main-head h2::before {
+    content: '';
+    background-color: #5697c0;
+    width: 5%;
+    height: 8px;
+    position: absolute;
+    bottom: 3px;
+    z-index: 1;
+}
+/* end of main heading  */
+
+/* start of nav media section  */
+/*.nav-media a {*/
+/*    font-size: 16px;*/
+/*    color: #5697c0;*/
+/*    display: inline-flex;*/
+/*    font-weight: 500;*/
+/*    margin-right: 100px;*/
+/*    text-decoration: underline;*/
+/*}*/
+.media-nav-sec ul#pills-tab li a {
+    color: #5697c0 ;
+    font-weight: 600;
+}
+.for-nav-border {
+    border-bottom: 1px solid #707070;
+}
+.media-nav-sec .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff !important;
+    background-color: #5697c0;
+    border-radius: unset;
+}
+.media-nav-sec ul#pills-tab li a {
+    color: #5697c0;
+    font-weight: 600;
+}
+section.media-nav-sec {
+    padding: 0 0px;
+}
+.nav-media{
+    border-bottom: 1px solid #70707045;
+}
+.blog-sec-house .card-deck .card img.card-img-top {
+    height: 190px;
+    object-fit: cover;
+}
+.blog-media .linesep {
+    height: 100%;
+    background: #00000094;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.blog-media .card-deck {
+    margin: 10px auto;
+    border-bottom: 2px solid #dfdfdf;
+    padding-bottom: 30px;
+}
+.blog-text h3 {
+    font-size: 28px;
+    color: #5697C0;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.blog-text p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+.blog-text span {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: -10px;
+    opacity: 0.5;
+}
+.blog-text a {
+    padding-bottom: 60px;
+}
+.blog-media .card-deck {
+    margin: 10px auto;
+}
+.blog-media p.card-text small {
+    margin-right: 17px;
+}
+.blog-media small.text-muted.colr {
+    color: #5697c0 !IMPORTANT;
+}
+/* end of nav media section  */
+
+/* responsive section  */
+@media (max-width:768px){
+.blog-media p.card-text {
+    font-size: 7px;
+}
+.nav-media a {
+    margin-right: 60px;
+}
+section.service-main-head p {
+    font-size: 22px;
+}
+}
+@media (max-width:480px){
+    .inner-heading h2 {
+        font-size: 38px;
+    }
+    section.service-main-head h2 {
+        font-size: 22px;
+    }
+  section.service-main-head h2::before {
+    width: 8%;
+    bottom: 0px;
+    height: 6px;
+}
+    .nav-media a {
+        padding: 10px 30px;
+        margin: unset;
+    }
+    .blog-text h3 {
+        font-size: 20px;
+        color: #5697C0;
+        font-weight: 800;
+    }
+    .blog-media p.card-text {
+        font-size: 24px;
+    }
+    section.service-main-head p {
+    font-size: 17px;
+}
+section.service-main-head h2::before {
+    z-index: 1;
+}
+section.service-main-head h2 {
+    font-size: 21px;
+}
+.media-nav-sec ul#pills-tab li a {
+    color: #5697c0;
+    font-weight: 600;
+    /* padding-right: 30px; */
+    /* font-size: 12px; */
+    line-height: 15px;
+    padding: 7px 9px;
+}
+
+}
+
+/* end of responsive section  */
+/* hover effects  */
+.nav-media a:hover {
+    background-color: #5697c0;
+    padding: 0px 30px;
+    transition: 2s;
+    color: #fff;
+}
+/* end of hover effects  */

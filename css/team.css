@@ -1,0 +1,192 @@
+.team_banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/team-banner.jpg);
+}
+.inner-heading h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 200;
+}
+/* end of inner banner  */
+
+/* start of pic and text sectin  */
+.team-list ul li {
+    list-style: none;
+}
+.team-list ul li i {
+    color: #5697c0;
+}
+.team-list ul {
+    padding: 0;
+}
+.team-list ul li {
+    list-style: none;
+    font-size: 14px;
+    font-family: var(--font-primary);
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: flex;
+}
+.team-list ul li i {
+    color: #5697c0;
+    padding: 12px 18px;
+}
+.team-inner-head{
+    font-size: 24px;
+    color: #5697C0;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 32px;
+}
+.our-team-sec h2.team-inner-head {
+    font-size: 31px;
+    line-height: 36px;
+    font-weight: 800;
+}
+.our-team-sec span.hr-r {
+    width: 96%;
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    top: 83px;
+}
+.our-team-sec .high-para h2::before {
+    content: '';
+    background-color: #5697c0;
+    width: 9%;
+    height: 8px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 80px;
+}
+/* end of pic and text section  */
+
+/* start of messsage team section  */
+.mesg-pic {
+    padding: 70px 0px;
+}
+.mesg-pic img {
+    position: relative;
+}
+.play-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-icon i {
+    background-color: #fff;
+    padding: 40px 45px;
+    border-radius: 60px;
+    font-size: 22px;
+}
+section.mesg-sec {
+    background-color: #F5FBFF;
+}
+.mesg-sec .team-head span.hr-r {
+    width: 20%;
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+}
+.mesg-sec .team-head span.hr-r::before {
+    content: '';
+    background-color: #5697c0;
+    width: 18%;
+    height: 8px;
+    position: absolute;
+    bottom: -3px;
+    z-index: 1;
+    left: 0px;
+}
+/* end of message team section  */
+@media (max-width:1100px){
+    h2.team-inner-head {
+       
+        line-height: 30px;
+    }
+    .our-team-sec h2.team-inner-head {
+    font-size: 27px;
+ 
+}
+}
+@media (max-width:768px){
+   .team-head p {
+    font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 7px;
+}
+h2.team-inner-head {
+    font-size: 17px;
+    line-height: 24px;
+}
+.high-para p {
+    font-size: 10px;
+}
+.team-list ul li {
+    font-size: 8px;
+}
+.team-head h2 {
+    font-size: 36px;
+}
+.team-head h3 {
+    font-size: 27px;
+}
+.play-icon img {
+    width: 50%;
+}
+.play-icon {
+    left: 70px;
+}
+.our-team-sec h2.team-inner-head {
+    font-size: 17px;
+    line-height: 19px;
+}
+.our-team-sec span.hr-r {
+    width: 91%;
+    top: 43px;
+}
+.our-team-sec .high-para h2::before {
+    top: 41px;
+}
+}
+@media (max-width:480px){
+    .play-icon {
+        left: 100px;
+    }
+    .play-icon img {
+        width: 50%;
+    }
+.our-team-sec h2.team-inner-head {
+    font-size: 17px;
+    line-height: 20px;
+}
+    .team-head h2 {
+        font-size: 22px;
+    }
+    .team-head h3 {
+        font-size: 14px;
+    }
+    .our-team-sec span.hr-r {
+    width: 87%;
+    left: -16px;
+    top: 47px;
+}
+.our-team-sec .high-para h2::before {
+    height: 7px;
+    left: 15px;
+    top: 44px;
+}
+    }

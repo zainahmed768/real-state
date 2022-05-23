@@ -1,0 +1,278 @@
+.property-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/evaluate-banner.jpg);
+}
+/* inner-banner */
+.inner-heading h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/* property-head */
+.property-head h2 {
+  font-size: 40px;
+  color: #5697c0;
+  font-weight: 700;
+  line-height: 52px;
+  position: relative;
+  text-transform: uppercase;
+}
+.property-head p {
+  color: #000;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 70px;
+}
+.property-head a {
+  background-color: #5697c0;
+  padding: 10px;
+  font-weight: 500;
+}
+.property-head {
+  text-align: center;
+}
+.pro-sec-head a {
+  color: #5697c0;
+  font-size: 20px;
+  padding: 0px 30px;
+}
+.pro-sec-head {
+  text-align: center;
+}
+.for-border {
+  border-right: 2px solid #707070;
+}
+.property-head span.hr-r {
+  width: 70%;
+  height: 2px;
+  background: #707070;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+}
+.property-head h2::before {
+  content: "";
+  background-color: #5697c0;
+  width: 5%;
+  height: 8px;
+  position: absolute;
+  bottom: -13px;
+  z-index: 1;
+  left: 156px;
+}
+/* end of property head  */
+
+/* start of form section  */
+.form-area button {
+  background-color: #5697c0;
+  border-radius: unset;
+  color: #fff;
+  padding: 14px 70px;
+  margin-top: 40px;
+}
+.form-area {
+  border: 1px solid #c3cad9;
+  padding: 40px 90px;
+  width: 70%;
+  margin: 0 auto;
+}
+.form-sec input#exampleInputEmail1 {
+  padding: 30px 33px;
+  border-radius: unset;
+  border: 1px solid #c3cad9;
+}
+.form-para {
+  text-align: center;
+}
+.form-sec textarea#exampleFormControlTextarea1 {
+  border: 1px solid #c3cad9;
+  border-radius: unset;
+  resize: none;
+  padding: 20px 33px;
+}
+.form-para p {
+  font-size: 16px;
+  color: #5a7184;
+  font-weight: 500;
+  text-align: initial;
+}
+.form-sec input#exampleInputEmail1::placeholder {
+  font-size: 15px;
+  color: #959ead;
+  font-weight: 500;
+}
+.form-sec textarea#exampleFormControlTextarea1::placeholder {
+  font-size: 15px;
+  color: #959ead;
+  font-weight: 500;
+}
+.form-sec input#exampleInputEmail1::placeholder {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.form-sec textarea#exampleFormControlTextarea1::placeholder {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+/* end of form section  */
+
+/* focus section  */
+.focus-head h2 {
+  font-size: 45px;
+  color: #5697c0;
+  font-weight: 800;
+  line-height: 46px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.focus-pics {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 24px 0px;
+}
+.focus-pics .focus-img1 {
+  text-align: center;
+}
+section.focus-sec {
+  background-color: #f5fbff;
+}
+.focus-img1 p {
+  font-size: 18px;
+  color: #5697c0;
+  text-align: center;
+  font-weight: 600;
+}
+.focus-pics figure {
+  padding: 30px 0px;
+}
+/* end of section  */
+
+/* hes section  */
+.hes-text h2 {
+  font-size: 44px;
+  color: #5697c0;
+  font-weight: 800;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+.hes-img img {
+  width: 100%;
+}
+.hes-text p {
+  font-size: 15px;
+  color: #272727;
+  font-weight: 400;
+  letter-spacing: 0px;
+  opacity: 0.7;
+}
+section.hes-sec .row {
+  display: flex;
+  align-items: center;
+}
+.hes-btn a {
+  background-color: #5697c0;
+  padding: 15px 30px;
+}
+.hes-btn {
+  text-align: center;
+  line-height: 142px;
+}
+.hes-border {
+  border-bottom: 2px solid #707070;
+  padding: 60px 0px;
+}
+/* end of hes section  */
+/* responsive section  */
+
+@media (max-width: 768px) {
+  .property-head h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .property-head p {
+    font-size: 20px;
+  }
+  .form-area {
+    padding: 40px 30px;
+    width: 96%;
+  }
+  .focus-head h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .hes-text h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .hes-text p {
+    font-size: 11px;
+  }
+  .page-heading .property-head h2::before {
+    left: 89px;
+  }
+}
+@media (max-width: 480px) {
+  .inner-heading h2 {
+    font-size: 32px;
+  }
+  .page-heading .property-head h2 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .property-head p {
+    font-size: 21px;
+    line-height: 27px;
+    padding-top: 20px;
+  }
+  .property-head a {
+    line-height: 52px;
+  }
+  .pro-sec-head a {
+    font-size: 11px;
+    padding: 0px 18px;
+  }
+  .form-area {
+    padding: 40px 25px;
+    width: 100%;
+  }
+  .form-para p {
+    font-size: 10px;
+  }
+  .focus-head h2 {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .hes-text h2 {
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 30px;
+  }
+  .hes-text p {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  section.hes-sec {
+    padding: 0;
+  }
+  .property-head span.hr-r {
+    width: 82%;
+  }
+  .property-head h2::before {
+    width: 10%;
+  }
+  .focus-img1 img {
+    width: 92%;
+  }
+  .focus-img1 p {
+    font-size: 14px;
+  }
+  .page-heading .property-head h2::before {
+    width: 10%;
+    height: 6px;
+    bottom: -13px;
+    left: 16px;
+  }
+}
+/* end of responsive  */

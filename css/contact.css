@@ -1,0 +1,168 @@
+/* inner-banner */
+.inner-heading h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+}
+/* end of inner banner  */
+/* form css  */
+.contact-form-house .form-control {
+    padding: 26px 26px;
+    border-radius: unset;
+}
+.contacts-head h2 span {
+    border-bottom: 1px solid #000;
+}
+.contacts-head h2{
+    position: relative;
+}
+.contact-work .contacts-head h2::before {
+    content: '';
+    background-color: #5697c0;
+    width: 10%;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+.contact-form-house .form-control::placeholder {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.submits {
+    background-color: #5697c0;
+}
+.contact-work .contacts-head h2 span {
+    font-size: 40px;
+}
+/* end of form css  */
+
+/* need section  */
+.need-stuff h3 {
+    font-size: 26px;
+    color: #183B56;
+    font-weight: 500;
+    line-height: 80px;
+}
+.need-stuff p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5A7184;
+}
+.need-stuff a {
+    font-size: 16px;
+    color: #5697C0;
+}
+.need-sec .property-head h2 {
+    font-size: 45px;
+    color: #5697C0;
+    font-weight: 700;
+    line-height: 46px;
+    position: relative;
+    text-transform: uppercase;
+}
+.property-head span.hr-r {
+    width: 15%;
+    height: 2px;
+    background: #707070;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+}
+.property-head h2::before {
+    content: '';
+    background-color: #5697c0;
+    width: 5%;
+    height: 8px;
+    position: absolute;
+    bottom: -13px;
+    z-index: 1;
+}
+.need-stuff {
+    padding-top: 50px;
+}
+/* end of need section  */
+
+@media (max-width:1100px){
+.high-para h2 {
+    font-size: 30px;
+   
+}
+.contacts-head h2::before {
+    bottom: -5px;
+}
+.high-para p {
+    margin-top: 12px;
+}
+.need-stuff p {
+    font-size: 11px;
+}
+.need-sec .property-head span.hr-r {
+    width: 26%;
+}
+.contact-work .contacts-head h2::before {
+    width: 8%;
+    height: 4px;
+    bottom: 3px;
+}
+
+}
+@media (max-width:768px){
+    .high-para h2 {
+        font-size: 24px;
+    }
+    .high-para p {
+        font-size: 11px;
+       
+    }
+    .contact-form-house .form-control {
+        padding: 10px 26px;
+    }
+    .property-head h2 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .need-stuff h3 {
+        font-size: 20px;
+        line-height: 52px;
+    }
+    .need-stuff p {
+        font-size: 8px;
+    }
+    .need-stuff img {
+        width: 37%;
+    }
+    .contact-work .contacts-head h2::before {
+    bottom: 0px;
+}
+.need-sec .property-head span.hr-r {
+    width: 33%;
+}
+.contact-work .contacts-head h2 span {
+    font-size: 24px;
+}
+}
+@media (max-width:480px){
+    .inner-heading h2 {
+        font-size: 35px;
+    }
+    .contacts-head h2::before {
+        height: 7px;
+        bottom: 2px;
+    }
+    .need-stuff p {
+        font-size: 12px;
+    }
+    .need-head h2 {
+        font-size: 34px;
+        line-height: 41px;
+    }
+    .need-head span.hr-r {
+        width: 52%;
+    }
+    .need-head h2::before {
+        width: 10%;
+       
+    }
+}

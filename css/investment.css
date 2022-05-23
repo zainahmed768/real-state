@@ -1,0 +1,229 @@
+/* inner banner */
+.inner-heading h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 200;
+}
+/* end of inner banner  */
+
+/* start heading section  */
+section.heading-house h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #629abe;
+    font-weight: 500;
+    margin: 0;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+.heading-house h5 span {
+    background: #fff;
+    padding: 5px 10px;
+    position: relative;
+    text-transform: uppercase;
+    color: #474747;
+    font-weight: 400;
+}
+.invest-sec .invest-head h2 {
+    font-family: var(--font-secondary);
+    font-weight: 100;
+}
+.heading-house .line {
+    width: 22%;
+    height: 1px;
+    background: #000;
+    margin: 0px auto;
+    position: relative;
+    top: 15px;
+}
+.heading-house .line {
+    width: 22%;
+    height: 2px;
+    background: #707070;
+    margin: 0px auto;
+    position: relative;
+    top: 46px;
+}
+section.heading-house h5 {
+    font-size: 20px;
+    color: #474747;
+    margin-top: 30px;
+}
+.invest-sec .invest-head h2 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    padding-bottom: 7px;
+}
+/* end of heading section  */
+
+/* start of pic and text-sec  */
+.invest-head .team-list ul {
+    list-style: none;
+    padding: 0;
+}
+.invest-head .team-list ul li {
+    list-style: none;
+    font-size: 14px;
+    font-family: var(--font-primary);
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 6px 6px;
+}
+.invest-head .team-list ul li span {
+    border: 1px solid #5697c0;
+    padding: 2px;
+    margin: 10px 20px;
+    border-radius: 30px;
+    color: #5697c0;
+}
+.invest-sec .invest-head h2 {
+    border-bottom: 2px solid #707070;
+}
+.invest-head h2.inner-ser-head.team-inner-head::before {
+    content: '';
+    background-color: #5697c0;
+    width: 9%;
+    height: 8px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 103px;
+}
+/* end of pic text section  */
+
+/* start of investment section  */
+section.services-sec {
+    background-image: url(../img/invest-ban.png);
+}
+.invest-ban .col-head p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-right: 20%;
+}
+/* end of investment section  */
+
+/* start of criteria section  */
+.criteria-sec h2 {
+    font-size: 45px;
+    text-align: center;
+    color: #629abe;
+    font-weight: 200;
+    margin: 0;
+    position: relative;
+}
+.criteria-sec h2 span {
+    border-bottom: 1px solid #707070;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.criteria-sec p {
+    font-size: 16px;
+    color: #272727;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.criteria-sec a {
+    border: 1px solid #5697C0;
+    color: #5697C0;
+    padding: 10px 30px;
+    line-height: 82px;
+}
+.criteria-sec h2::before {
+    content: '';
+    background: #5b94b8;
+    width: 5%;
+    height: 8px;
+    position: absolute;
+    bottom: -6px;
+}
+/* end of criteria section  */
+
+/* responsive  */
+
+@media (max-width:768px){
+    section.heading-house h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .high-para h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .high-para p {
+        font-size: 12px;
+    }
+    .invest-head .team-list ul li {
+        font-size: 13px;
+        padding: 2px 2px;
+    }
+    .invest-ban .col-head p {
+        font-size: 11px;
+    }
+    .criteria-sec p {
+        font-size: 13px;
+    }
+    .criteria-sec h2 {
+        font-size: 40px;
+    }
+    .invest-sec .invest-head h2 {
+    font-size: 22px;
+    padding-bottom: 9px;
+}
+.invest-head h2.inner-ser-head.team-inner-head::before {
+    height: 6px;
+    top: 33px;
+}
+}
+@media (max-width:480px){
+    .invest-head .team-list ul li {
+        font-size: 13px;
+    }
+    section.heading-house h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .heading-house .line {
+        width: 45%;
+    }
+    section.heading-house h5 {
+        font-size: 14px;
+    }
+    section.high-sec figure {
+        padding: 0;
+    }
+    .invest-ban .col-head p {
+        font-size: 10px;
+    }
+    .criteria-sec h2 {
+        font-size: 36px;
+    }
+    .criteria-sec p {
+        font-size: 12px;
+    }
+    .inner-heading h2 {
+        font-size: 32px;
+    }
+    .invest-sec .invest-head h2 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.invest-head h2.inner-ser-head.team-inner-head::before {
+    left: 14px;
+    top: 60px;
+}
+.criteria-sec h2::before {
+    width: 10%;
+    height: 6px;
+    bottom: -7px;
+}
+.criteria-sec h2::before {
+    width: 10%;
+    height: 6px;
+}
+}
+/* end of responsive  */
